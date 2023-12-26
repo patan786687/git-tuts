@@ -1,1 +1,2 @@
-I am new user
+I am new user 
+I am adding another user
