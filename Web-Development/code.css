@@ -1,8 +1,12 @@
 #Res{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 75px;
+    font-size: 50px;
     font-style: normal;
-    color: blue;
+    text-align: center;
+    margin: auto;
+    width: 70px;
+    padding: 10px;
+    color: red;
     margin-bottom: 0%;
     margin-top: 0%;
 } 
@@ -12,6 +16,7 @@
     font-style: normal;
     color: green;
     margin-top: 0%;
+    margin-bottom:0%;
     
 }
 body{
@@ -21,11 +26,38 @@ body{
 img{
     border-radius: 4px;
     border: 1px solid rgb(204, 131, 22);
-    float: right;
+    float:right;
     padding: 5px;
     width: 150px;
     margin-top: 0%;
+    margin-bottom: auto;
 }
 hr{
     color: blue;
+    margin-top: 0.5%;
+
+}
+
+form{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    float: var(50px);
+    font-size: 20px;
+}
+select{
+    font-size: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: right;
+    size: 50px;
+    margin-top: 0%;
+}
+#Designation{
+    float: right;
 }
